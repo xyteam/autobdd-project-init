@@ -2,12 +2,12 @@
 Base project that serves as entry point to your specific projects that utilized [AutoBDD Automation Framework](https://github.com/xyteam/AutoBDD)
 
 #### Usage
-### Prerequisites
+##### Prerequisites
 * Setup [XYPlatform](https://github.com/xyteam/xyPlatform) test environment
 * Clone AutoBDD framework to your local test environment
     * `git clone https://github.com/xyteam/AutoBDD.git`
 
-### Running your test project
+##### Running your test project
 To setup your project in AutoBDD Framework:
 1. Set up your target project with **<your-project-name>** in github or gitlab
 2. cd to your local AutoBDD
@@ -28,12 +28,3 @@ To setup your project in AutoBDD Framework:
 |           +-- <your-test-module>
 |           +-- ...
 ```
-
-#### Special Mentions
-  * Demo-App application and Precanned Cucumber-JS Steps are taken from **[webdriverio/cucumber-boilerplate](https://github.com/webdriverio/cucumber-boilerplate)**
-  * Image Regognizing library is taken from **[RaiMan/SikuliX1](https://github.com/RaiMan/SikuliX1)**
-  * Keyboard and Mouse control library is taken from **[octalmage/robotjs](https://github.com/octalmage/robotjs)**
-  * Framework Control libraries are taken from **[TheBrainFamily/chimpy](https://github.com/TheBrainFamily/chimpy)** and its dependency node modules which include:
-      * cucumber-js
-      * v4.webdriverio
-  * And many other open-source npm libraries
